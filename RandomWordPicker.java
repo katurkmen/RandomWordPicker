@@ -12,8 +12,10 @@ public class RandomWordPicker {
 	/**
 	 * Please go to the directory of the code, simply fill up to input.txt with your
 	 * inputs line by line. When you run the program, it will fill up the output.txt
-	 * with randomized outputs. Feel free to use, share, modify. Author: Kaan
-	 * Turkmen github.com/katurkmen
+	 * with randomized outputs.
+	 * Feel free to use, share, modify.
+	 * Author: Kaan Turkmen
+	 * github.com/katurkmen
 	 */
 	int writtenLines = 0;
 	int randomCount = 100;
