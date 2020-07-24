@@ -17,8 +17,13 @@ public class RandomWordPicker {
 	 * Author: Kaan Turkmen
 	 * github.com/katurkmen
 	 */
-	int writtenLines = 0;
+	// Edit this line for how many random words do you want program to produce.
 	int randomCount = 100;
+	// Edit this integer value to give program how many lines does your input file has.
+	int inputCount = 120;
+
+	// Do not edit anything below this line.
+	int writtenLines = 0;
 
 	Map<Integer, String> map = new HashMap<Integer, String>();
 	List<String> input = new ArrayList<String>();
@@ -70,7 +75,7 @@ public class RandomWordPicker {
 			e1.printStackTrace();
 		}
 		while (writtenLines != randomCount) {
-			random = ThreadLocalRandom.current().nextInt(120);
+			random = ThreadLocalRandom.current().nextInt(inputCount);
 			// Prints word into output.txt if it is not already there.
 			if (!(writtenIndeces.contains(random))) {
 				writtenIndeces.add(random);
