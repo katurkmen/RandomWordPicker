@@ -52,6 +52,9 @@ public class RandomWordPicker {
 			line++;
 			input.add(sc.nextLine());
 		}
+		
+		sc.close();
+		
 		return input;
 
 	}
@@ -83,5 +86,6 @@ public class RandomWordPicker {
 				writtenLines++;
 			}
 		}
+		wr.close();
 	}
 }
